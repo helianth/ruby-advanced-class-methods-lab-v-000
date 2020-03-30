@@ -8,7 +8,7 @@ class Song
   end
 
 
-  def self.save
+  def save
     self.class.all << self #tbis is the object self
   end
 
